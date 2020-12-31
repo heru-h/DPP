@@ -1,7 +1,7 @@
 public class ConcreteFan implements Fan {
     private String fanName;
-    public  ConcreteFan(String fanName){
-        this.fanName=fanName;
+    public  ConcreteFan(String B){
+        this.fanName=B;
     }
     @Override
     public void update(String message){
